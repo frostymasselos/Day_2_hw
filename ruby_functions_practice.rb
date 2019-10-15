@@ -9,3 +9,7 @@ end
 def subtract(x, y)
   10 - 5
 end
+
+def multiply(z, c)
+  4 * 2
+end
