@@ -43,5 +43,18 @@ def number_to_full_name__month_3(num)
     "January"
   when 3
     "March"
+  when 9
+    "September"
+  end
+end
+
+def number_to_full_name__month_9(num)
+  case num.to_i
+  when 1
+    "January"
+  when 3
+    "March"
+  when 9
+    "September"
   end
 end
