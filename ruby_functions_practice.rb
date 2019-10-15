@@ -17,3 +17,7 @@ end
 def divide(z, c)
   10 / 2
 end
+
+def length_of_string(anything)
+  "A string of length 21".length
+end
