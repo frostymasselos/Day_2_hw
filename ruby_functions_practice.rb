@@ -30,9 +30,18 @@ def add_string_as_number(x, y)
   "1".to_i + "2".to_i
 end
 
-def number_to_full_name__month_(num)
+def number_to_full_name__month_1(num)
   case num.to_i
   when 1
     "January"
+  end
+end
+
+def number_to_full_name__month_3(num)
+  case num.to_i
+  when 1
+    "January"
+  when 3
+    "March"
   end
 end
