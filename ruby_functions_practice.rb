@@ -58,3 +58,10 @@ def number_to_full_name__month_9(num)
     "September"
   end
 end
+
+def number_to_short_month_name__month_1(num)
+  case num.to_i
+  when 1
+    "Jan"
+  end
+end
