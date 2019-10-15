@@ -13,3 +13,7 @@ end
 def multiply(z, c)
   4 * 2
 end
+
+def divide(z, c)
+  10 / 2
+end
