@@ -74,3 +74,9 @@ def number_to_short_month_name__month_4(num)
     "Apr"
   end
 end
+
+def number_to_short_month_name__month_10(num)
+  if num == 10
+    return "Oct"
+  end
+end
