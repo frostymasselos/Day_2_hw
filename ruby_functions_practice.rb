@@ -65,3 +65,12 @@ def number_to_short_month_name__month_1(num)
     "Jan"
   end
 end
+
+def number_to_short_month_name__month_4(num)
+  case num.to_i
+  when 1
+    "Jan"
+  when 4
+    "Apr"
+  end
+end
